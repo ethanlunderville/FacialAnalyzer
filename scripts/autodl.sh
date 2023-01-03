@@ -1,3 +1,5 @@
+python3 cleanurls.py
+
 downloader () {
 
     echo "HERE IS THE LINE $LINE"
@@ -33,7 +35,4 @@ while read LINE; do
     sleep $num
 
 done < $FACEPROJECTDIR/output/urls/urls
-
-
-python3 cleanurls.py
 
